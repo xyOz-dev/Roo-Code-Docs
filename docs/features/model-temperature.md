@@ -1,3 +1,5 @@
+import KangarooIcon from '@site/src/components/KangarooIcon';
+
 # Model Temperature
 
 Temperature controls the randomness of AI model outputs. Adjusting this setting optimizes results for different tasks - from precise code generation to creative brainstorming. Temperature is one of the most powerful parameters for controlling AI behavior. A well-tuned temperature setting can dramatically improve the quality and appropriateness of responses for specific tasks.
@@ -40,7 +42,7 @@ These are starting points – it's important to [experiment with different setti
 
 ## How to Adjust Temperature
 
-1.  **Open the Roo Code Panel:** Click the Roo Code icon (<Codicon name="rocket" />) in the VS Code Activity Bar
+1.  **Open the Roo Code Panel:** Click the Roo Code icon (<KangarooIcon />) in the VS Code Activity Bar
 2.  **Open Settings:** Click the <Codicon name="gear" /> icon in the top right corner
 3.  **Find Temperature Control:** Navigate to the Providers section
 4.  **Enable Custom Temperature:** Check the "Use custom temperature" box
