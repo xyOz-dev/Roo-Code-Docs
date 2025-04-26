@@ -55,9 +55,12 @@ Make Roo Code work your way with:
 - [Advanced Features](/features/auto-approving-actions)
 - [Frequently Asked Questions](/faq)
 
-### Community
-- **Discord:** [Join our Discord server](https://discord.gg/roocode) for real-time help and discussions
-- **Reddit:** [Visit our subreddit](https://www.reddit.com/r/RooCode) to share experiences and tips
-- **GitHub:** Report [issues](https://github.com/RooVetGit/Roo-Code/issues) or request [features](https://github.com/RooVetGit/Roo-Code/discussions/categories/feature-requests?discussions_q=is%3Aopen+category%3A%22Feature+Requests%22+sort%3Atop)
+### Community & Socials
+- **Discord:** [Join our Discord server](https://discord.gg/roocode) for real-time help and discussions.
+- **Reddit:** [Visit our subreddit](https://www.reddit.com/r/RooCode) to share experiences and tips.
+- **GitHub:** Report [issues](https://github.com/RooVetGit/Roo-Code/issues) or request [features](https://github.com/RooVetGit/Roo-Code/discussions/categories/feature-requests?discussions_q=is%3Aopen+category%3A%22Feature+Requests%22+sort%3Atop).
+- **X (Twitter):** [Follow @roo_code](https://x.com/roo_code).
+- **Bluesky:** [Follow roocode.bsky.social](https://bsky.app/profile/roocode.bsky.social).
+- **LinkedIn:** [Follow Roo Code](https://www.linkedin.com/company/roo-code).
 
 Ready to get started? Click the **Next** button below to begin your journey with Roo Code!
