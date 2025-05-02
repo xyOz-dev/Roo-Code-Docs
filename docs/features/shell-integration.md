@@ -67,6 +67,11 @@ Adds a small pause after running commands to help Roo capture all output correct
   * Shell customizations (oh-my-zsh, powerlevel10k, etc.)
   * Operating system and environment
 
+#### Disable Terminal Shell Integration
+<img src="/img/shell-integration/shell-integration-9.png" alt="Disable terminal shell integration checkbox" width="600" />
+
+Enable this setting if terminal commands aren't working correctly or you encounter 'Shell Integration Unavailable' errors. When enabled, Roo Code uses a simpler, fallback method to execute commands, which bypasses some advanced terminal integration features but can improve reliability in problematic environments.
+
 ### Advanced Settings
 
 :::info Important
