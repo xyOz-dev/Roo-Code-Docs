@@ -117,6 +117,7 @@ const sidebars: SidebarsConfig = {
         'providers/openrouter',
         'providers/requesty',
         'providers/unbound',
+        'providers/vertex',
         'providers/vscode-lm',
         'providers/xai',
       ]
