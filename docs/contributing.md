@@ -77,7 +77,7 @@ Connecting with the Roo Code community is a great way to get started:
 -   **Primary Method**:
     1.  Join the [Roo Code Discord community](https://discord.gg/roocode).
     2.  Once joined, send a direct message (DM) to **Hannes Rudolph** (Discord username: `hrudolph`) to discuss your interest and get guidance.
--   **Alternative for Experienced Contributors**: If you're comfortable with an issue-first approach, you can engage directly through GitHub by following the Kanban board and communicating via issues and pull requests.
+-   **Alternative for Experienced Contributors**: If you're comfortable with an issue-first approach, you can engage directly through GitHub by following the [Kanban board](https://github.com/orgs/RooVetGit/projects/1) and communicating via issues and pull requests.
 
 ## II. Finding & Planning Your Contribution
 
