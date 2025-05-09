@@ -152,6 +152,7 @@ const sidebars: SidebarsConfig = {
             'community/tips-and-tricks',
             'community/dynamic-rules',
             'community/roo-commander',
+            'community/maestro',
           ],
         },
         {
