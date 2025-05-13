@@ -40,9 +40,12 @@ Roo Code has a fallback mechanism for executing commands. This is most relevant 
 <img src="/img/shell-integration/shell-integration-12.png" alt="Roo Code's recommended inline terminal in action" width="600" />
 *Example of Roo Code's recommended inline terminal.*
 
-Roo Code provides several settings to fine-tune how it interacts with terminals. Access these in the Roo Code sidebar under Settings → Terminal.
 
 ## Terminal Integration Settings
+
+Roo Code provides settings to fine-tune how it interacts with terminals. To access these settings:
+1. Click the <Codicon name="gear" /> icon in the top-right corner of the Roo Code sidebar.
+2. In the settings pane that opens, select the "Terminal" group from the left-hand menu.
 
 ### Basic Settings
 
