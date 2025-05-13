@@ -73,31 +73,31 @@ Enable this if terminal commands aren't working correctly or you see 'Shell Inte
 
 The following settings are applicable when "Disable terminal shell integration" is **unchecked** (i.e., shell integration is enabled):
 
-##### a. Terminal shell integration timeout
+##### Terminal shell integration timeout
 <img src="/img/shell-integration/shell-integration-1.png" alt="Terminal shell integration timeout slider set to 15s" width="600" />
 Maximum time to wait for shell integration to initialize before executing commands. For users with long shell startup times, this value may need to be increased if you see 'Shell Integration Unavailable' errors in the terminal. Default: 15s (as shown in UI).
 
-##### b. Terminal command delay
+##### Terminal command delay
 <img src="/img/shell-integration/shell-integration-2.png" alt="Terminal command delay slider set to 0ms" width="600" />
 Delay in milliseconds to add after command execution. The default setting of 0 disables the delay completely. This can help ensure command output is fully captured in terminals with timing issues. In most terminals, it is implemented by setting `PROMPT_COMMAND='sleep N'` and Powershell appends `start-sleep` to the end of each command. Originally was workaround for VSCode bug [#237208](https://github.com/microsoft/vscode/issues/237208) and may not be needed. Default: 0ms.
 
-##### c. Enable PowerShell counter workaround
+##### Enable PowerShell counter workaround
 <img src="/img/shell-integration/shell-integration-3.png" alt="Enable PowerShell counter workaround checkbox" width="600" />
 When enabled, adds a counter to PowerShell commands to ensure proper command execution. This helps with PowerShell terminals that might have issues with command output capture.
 
-##### d. Clear ZSH EOL mark
+##### Clear ZSH EOL mark
 <img src="/img/shell-integration/shell-integration-4.png" alt="Clear ZSH EOL mark checkbox" width="600" />
 When enabled, clears the ZSH end-of-line mark by setting `PROMPT_EOL_MARK=''`. This prevents issues with command output interpretation when output ends with special characters like '%'.
 
-##### e. Enable Oh My Zsh integration
+##### Enable Oh My Zsh integration
 <img src="/img/shell-integration/shell-integration-5.png" alt="Enable Oh My Zsh integration checkbox" width="600" />
 When enabled, sets `ITERM_SHELL_INTEGRATION_INSTALLED=Yes` to enable Oh My Zsh shell integration features. Applying this setting might require restarting the IDE.
 
-##### f. Enable Powerlevel10k integration
+##### Enable Powerlevel10k integration
 <img src="/img/shell-integration/shell-integration-6.png" alt="Enable Powerlevel10k integration checkbox" width="600" />
 When enabled, sets `POWERLEVEL9K_TERM_SHELL_INTEGRATION=true` to enable Powerlevel10k shell integration features.
 
-##### g. Enable ZDOTDIR handling
+##### Enable ZDOTDIR handling
 <img src="/img/shell-integration/shell-integration-7.png" alt="Enable ZDOTDIR handling checkbox" width="600" />
 When enabled, creates a temporary directory for ZDOTDIR to handle zsh shell integration properly. This ensures VSCode shell integration works correctly with zsh while preserving your zsh configuration.
 
