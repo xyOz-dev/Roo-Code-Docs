@@ -9,14 +9,13 @@ The `autoCondenseContext` experimental feature proactively manages Roo Code's co
 
 ## How It Works
 
-When a conversation with Roo approaches its context window limit, older messages would typically be dropped to make space. The `autoCondenseContext` feature addresses this by automatically summarizing the conversation history using a Large Language Model (LLM) call. This summarization is triggered when the context window reaches 50% capacity.
+When a conversation with Roo approaches its context window limit, older messages would typically be dropped to make space. The `autoCondenseContext` feature addresses this by automatically summarizing the conversation history using a Large Language Model (LLM) call. This summarization is triggered when the context window is almost full.
 
 The goal is to shrink the token count of the conversation history while preserving essential information, preventing the context window from overflowing and avoiding the silent dropping of messages. This helps maintain a more coherent and complete conversation history for the LLM.
 
 **Key Points:**
-*   **Summarization Trigger:** Occurs when the context window is 50% full.
+*   **Summarization Trigger:** Occurs when the context window is almost full.
 *   **Message Preservation:** All original messages are preserved when rewinding to old checkpoints. However, messages from before the most recent summary are not included in subsequent API calls to the LLM.
-*   **Image Handling:** A function (`maybeRemoveImageBlocks`) is used to manage image blocks within messages during summarization, as the underlying summarization API may not directly support them in conversational format.
 
 **Disclaimer**: The LLM call used for summarization has an associated cost. Currently, this cost is not reflected in the usage/cost displayed in the Roo Code UI.
 
