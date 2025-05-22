@@ -185,6 +185,7 @@ const sidebars: SidebarsConfig = {
           type: 'category',
           label: '3.18',
           items: [
+            { type: 'doc', id: 'update-notes/v3.18', label: '3.18 Combined' },
             { type: 'doc', id: 'update-notes/v3.18.0', label: '3.18.0' },
           ],
         },
