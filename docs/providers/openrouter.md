@@ -26,8 +26,6 @@ OpenRouter supports a large and growing number of models.  Roo Code automaticall
 4.  **Select Model:** Choose your desired model from the "Model" dropdown.
 5.  **(Optional) Custom Base URL:** If you need to use a custom base URL for the OpenRouter API, check "Use custom base URL" and enter the URL. Leave this blank for most users.
 
-6.  **(Optional) Enable Prompt Caching (Supported Models):** For models accessed via OpenRouter that support caching (like Gemini 2.5), check the "Enable Prompt Caching" box if you wish to activate it. See the note below for important details specific to this provider.
-    <img src="/img/v3.14.2/v3.14.2.png" alt="Prompt Caching Checkbox for OpenRouter Provider" width="600" />
 ## Supported Transforms
 
 OpenRouter provides an [optional "middle-out" message transform](https://openrouter.ai/docs/features/message-transforms) to help with prompts that exceed the maximum context size of a model. You can enable it by checking the "Compress prompts and message chains to the context size" box.
